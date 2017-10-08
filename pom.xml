@@ -342,27 +342,6 @@
 					</descriptorRefs>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>jaxws-maven-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>wsimport</goal>
-						</goals>
-						<configuration>
-							<wsdlUrls>
-								<wsdlUrl>file:///C:\Datos\ONE\TIGO\Segmentacion\integracion\wsdl\SetClientSegment\SetClientSegment.wsdl</wsdlUrl>
-							</wsdlUrls>
-							<packageName>py.com.one.oficio.integracion</packageName>
-							<sourceDestDir>${basedir}/src/main/java</sourceDestDir>
-						</configuration>
-
-					</execution>
-				</executions>
-			</plugin>
-
-
 
 		</plugins>
 
